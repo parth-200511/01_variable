@@ -1,0 +1,18 @@
+// let value = 3;
+// let negvalue = -value;
+// console.log(negvalue);
+// let str1 = "hellow";
+// let str2 = "parth";
+// let str3 = str1 + str2;
+// console.log(str3);
+// const hundreds = 1000000;
+// console.log(hundreds.toLocaleString("en-In"));
+// console.log(Math);
+// console.log(Math.abs(-4));
+// console.log(Math.round(999.987));
+// console.log(Math.max(4, 56, 7, 2));
+// console.log(Math.random());
+// console.log(Math.floor(Math.random() * 10) + 1);
+const min = 10;
+const max = 20;
+console.log(Math.floor(Math.random() * (max - min + 1)) + min);
